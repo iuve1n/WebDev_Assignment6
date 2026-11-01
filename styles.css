@@ -79,6 +79,7 @@ h1 {
 .example-box {
   margin: 20px 0;
   padding: 16px;
+  overflow-wrap: anywhere;
   border: 1px solid #444;
   border-radius: 4px;
   background: #242424;
@@ -107,6 +108,53 @@ h1 {
 h2 {
   margin: 0 0 12px;
   font-size: 22px;
+}
+
+.item-list {
+  padding-left: 24px;
+}
+
+.item-list li {
+  margin-bottom: 8px;
+}
+
+.text-link {
+  color: #ddd;
+  text-underline-offset: 3px;
+}
+
+.simple-form {
+  max-width: 480px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background: #242424;
+  color: #ededed;
+  font: inherit;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus {
+  outline: 2px solid #ddd;
+  outline-offset: 2px;
 }
 
 button,
