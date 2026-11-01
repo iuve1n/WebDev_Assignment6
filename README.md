@@ -1,6 +1,6 @@
 # Assignment 6
 
-This project has jQuery examples on separate pages. Tasks 0 and 1 cover setup and selectors. Tasks 2 through 4 demonstrate visibility, fade, and slide effects. Tasks 5 through 7 cover list items, attributes, and live form input.
+This project has jQuery examples on separate pages. Tasks 0 and 1 cover setup and selectors. Tasks 2 through 4 demonstrate visibility, fade, and slide effects. Tasks 5 through 7 cover list items, attributes, and live form input. Tasks 8 through 10 show how to move and resize elements with jQuery animations.
 
 ## Technologies
 
