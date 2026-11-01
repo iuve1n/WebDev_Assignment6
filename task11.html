@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accordion | Assignment 6</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="task11.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="index.html">Assignment 6</a>
+      <div class="nav-links">
+        <a href="index.html">Task 0</a>
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+        <a href="task5.html">Task 5</a>
+        <a href="task6.html">Task 6</a>
+        <a href="task7.html">Task 7</a>
+        <a href="task8.html">Task 8</a>
+        <a href="task9.html">Task 9</a>
+        <a href="task10.html">Task 10</a>
+        <a href="task11.html" aria-current="page">Task 11</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-card">
+      <p class="eyebrow">Part 5 · Mini-project</p>
+      <h1>Accordion</h1>
+      <p>Select a question to open its answer. Only one answer stays open at a time.</p>
+      <div class="accordion">
+        <section class="accordion-item">
+          <h2>
+            <button class="accordion-button" id="question-one" type="button" aria-expanded="false" aria-controls="answer-one">What is jQuery?</button>
+          </h2>
+          <div class="accordion-panel" id="answer-one" role="region" aria-labelledby="question-one">
+            <p>jQuery is a JavaScript library that makes common page tasks, such as selecting elements and handling clicks, shorter to write.</p>
+          </div>
+        </section>
+        <section class="accordion-item">
+          <h2>
+            <button class="accordion-button" id="question-two" type="button" aria-expanded="false" aria-controls="answer-two">What does an accordion do?</button>
+          </h2>
+          <div class="accordion-panel" id="answer-two" role="region" aria-labelledby="question-two">
+            <p>An accordion shows or hides a section of content when its button is selected.</p>
+          </div>
+        </section>
+        <section class="accordion-item">
+          <h2>
+            <button class="accordion-button" id="question-three" type="button" aria-expanded="false" aria-controls="answer-three">How does this page open an answer?</button>
+          </h2>
+          <div class="accordion-panel" id="answer-three" role="region" aria-labelledby="question-three">
+            <p>The click handler uses jQuery slide methods to show the selected answer and close the others.</p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

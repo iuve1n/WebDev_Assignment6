@@ -218,3 +218,45 @@ button:focus-visible {
   color: #111;
   text-align: center;
 }
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  border: 1px solid #444;
+  border-bottom: 0;
+}
+
+.accordion-item:last-child {
+  border-bottom: 1px solid #444;
+}
+
+.accordion-item h2 {
+  margin: 0;
+}
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+}
+
+.accordion-button::after {
+  float: right;
+  content: "+";
+}
+
+.accordion-button[aria-expanded="true"]::after {
+  content: "−";
+}
+
+.accordion-panel {
+  display: none;
+  padding: 12px 16px;
+  border-top: 1px solid #444;
+  background: #242424;
+}
+
+.accordion-panel p {
+  margin: 0;
+}
