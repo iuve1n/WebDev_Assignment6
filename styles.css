@@ -88,6 +88,27 @@ h1 {
   padding: 8px;
 }
 
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.effect-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
 button,
 .button-link {
   display: inline-block;
